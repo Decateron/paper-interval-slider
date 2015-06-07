@@ -1,21 +1,25 @@
 {
-  "name": "paper-slider",
-  "version": "1.0.1",
-  "description": "A material design-style slider",
+  "name": "paper-interval-slider",
+  "version": "0.0.0",
+  "description": "A material design-style interval slider",
   "license": "http://polymer.github.io/LICENSE.txt",
-  "authors": "The Polymer Authors",
+  "authors": [
+    "Josh Heinrichs <joshiheinrichs@gmail.com>",
+    "The Polymer Authors"
+  ],
   "keywords": [
     "web-components",
     "polymer",
     "slider",
-    "control"
+    "control",
+    "interval"
   ],
   "main": [
-    "paper-slider.html"
+    "paper-interval-slider.html"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-slider.git"
+    "url": "git://github.com/Decateron/paper-interval-slider.git"
   },
   "dependencies": {
     "polymer": "Polymer/polymer#^1.0.0",
@@ -23,7 +27,7 @@
     "paper-progress": "PolymerElements/paper-progress#^1.0.0",
     "iron-flex-layout": "PolymerElements/iron-flex-layout#^1.0.0",
     "paper-styles": "PolymerElements/paper-styles#^1.0.0",
-    "iron-behaviors": "PolymerElements/iron-behaviors#^1.0.0"
+    "iron-interval-behaviour": "Decateron/iron-interval-behavior#^1.0.0"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",

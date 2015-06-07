@@ -20,19 +20,19 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 }
 
 :host(:not([disabled])) #sliderBar::shadow #activeProgress {
-  background-color: var(--paper-slider-active-color, --google-blue-700);
+  background-color: var(--paper-interval-slider-active-color, --google-blue-700);
 }
 
 :host(:not([disabled])) #sliderBar::shadow #secondaryProgress {
-  background-color: var(--paper-slider-secondary-color, --google-blue-300);
+  background-color: var(--paper-interval-slider-secondary-color, --google-blue-300);
 }
 
 :host([disabled]) #sliderBar::shadow #activeProgress {
-  background-color: var(--paper-slider-disabled-active-color, --google-grey-500);
+  background-color: var(--paper-interval-slider-disabled-active-color, --google-grey-500);
 }
 
 :host([disabled]) #sliderBar::shadow #secondaryProgress {
-  background-color: var(--paper-slider-disabled-secondary-color, --google-grey-300);
+  background-color: var(--paper-interval-slider-disabled-secondary-color, --google-grey-300);
 }
 
 :host(:focus) {
@@ -155,7 +155,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   border-radius: 50%;
-  background-color: var(--paper-slider-knob-color, --google-blue-700);
+  background-color: var(--paper-interval-slider-knob-color, --google-blue-700);
   transition-property: height, width, background-color, border;
   transition-duration: 0.1s;
   transition-timing-function: ease;
@@ -174,7 +174,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 }
 
 #sliderKnobInner::before {
-  background-color: var(--paper-slider-pin-color, --google-blue-700);
+  background-color: var(--paper-interval-slider-pin-color, --google-blue-700);
 }
 
 .pin > #sliderKnob > #sliderKnobInner::before {
@@ -213,7 +213,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   width: 32px;
   height: 26px;
   text-align: center;
-  color: var(--paper-slider-font-color, #fff);
+  color: var(--paper-interval-slider-font-color, #fff);
   font-size: 10px;
   -webkit-transform: scale(0) translate(0);
   transform: scale(0) translate(0);
@@ -244,7 +244,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 .disabled > #sliderKnob > #sliderKnobInner {
   width: 8px;
   height: 8px;
-  background-color: var(--paper-slider-disabled-knob-color, --google-grey-500);
+  background-color: var(--paper-interval-slider-disabled-knob-color, --google-grey-500);
 }
 
 .disabled.ring > #sliderKnob > #sliderKnobInner {
